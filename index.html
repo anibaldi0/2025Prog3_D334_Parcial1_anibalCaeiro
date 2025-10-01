@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Frutas</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script defer src="./js/main.js"></script>
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <div class="logo">Fruteria</div>
+    
+    <div class="busqueda">
+      <span id="nav-datos">Anibal Caeiro</span>
+      <input type="text" id="barra-busqueda" placeholder="Buscar...">
+    </div>
+    
+    <div id="contador-carrito">Carrito: 0 Productos</div>
+  </div>
+</header>
+
+
+<main>
+  <h2>Nuestras frutas</h2>
+  <div class="botones-ordenar">
+    <button id="ordenar-nombre">Ordenar por Nombre</button>
+    <button id="ordenar-precio">Ordenar por Precio</button>
+  </div>
+
+  <section id="contenedor-productos"></section>
+  <hr>
+  <section id="contenedor-carrito"></section>
+  <p id="total-precio">Total: $0</p>
+</main>
+
+  <footer>
+    <p>División 334 - Programación III</p>
+  </footer>
+</body>
+</html>
